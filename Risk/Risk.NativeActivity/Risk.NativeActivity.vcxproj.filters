@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="android_native_app_glue.h" />
+    <ClInclude Include="core\assert.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\async_operations.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\buffer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\file_manager.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\font.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\game.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hash.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\linalg.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\lua_core.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\lua_core_private.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\new_renderer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\path.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\platform.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\remote_debug.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\resources.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\service_finder.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\shader.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\socket_helpers.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\socket_stream.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\time_helpers.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\common.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\exponential.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\ext.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\fwd.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\geometric.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\glm.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\integer.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\mat2x2.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\mat2x3.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\mat2x4.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\mat3x2.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\mat3x3.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\mat3x4.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\mat4x2.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\mat4x3.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\mat4x4.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\matrix.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\packing.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\trigonometric.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\vec2.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\vec3.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\vec4.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm\vector_relational.hpp">
+      <Filter>glm\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="external_libs\lodepng.h">
+      <Filter>external_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lauxlib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_alloc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_arch.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_asm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_asm_arm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_asm_mips.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_asm_ppc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_asm_x86.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_bc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_bcdef.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_bcdump.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_carith.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_ccall.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_ccallback.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_cconv.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_cdata.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_char.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_clib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_cparse.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_crecord.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_ctype.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_debug.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_def.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_dispatch.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_emit_arm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_emit_mips.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_emit_ppc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_emit_x86.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_err.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_errmsg.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_ff.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_ffdef.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_ffrecord.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_folddef.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_frame.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_func.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_gc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_gdbjit.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_ir.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_ircall.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_iropt.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_jit.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_lex.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_lib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_libdef.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_mcode.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_meta.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_obj.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_parse.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_recdef.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_record.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_snap.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_state.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_str.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_strscan.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_tab.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_target.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_target_arm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_target_mips.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_target_ppc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_target_x86.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_trace.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_traceerr.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_udata.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_vm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lj_vmevent.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.hpp">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaconf.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luajit.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lualib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="external_libs\utf8\checked.h">
+      <Filter>external_libs\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="external_libs\utf8\core.h">
+      <Filter>external_libs\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="external_libs\utf8\unchecked.h">
+      <Filter>external_libs\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="external_libs\utf8.h">
+      <Filter>external_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="display.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="gl3stub.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="android_native_app_glue.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="core\async_operations.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\buffer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\file_manager.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\font.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\game.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\hash.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\linalg.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\lua_core.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\new_renderer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\path.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\platform.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\remote_debug.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\resource.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\service_finder.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\shader.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\socket_helpers.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\socket_stream.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\time_helpers.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="external_libs\lodepng.cpp">
+      <Filter>external_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="gl3stub.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{e65f4727-99f6-4cd0-8498-f2fe747d5f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glm">
+      <UniqueIdentifier>{f5ce1bf9-53a0-46db-8a4c-201c2442170f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glm\glm">
+      <UniqueIdentifier>{dc2263bb-208f-405f-87cd-6c4da8cef82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external_libs">
+      <UniqueIdentifier>{9182ca6e-9d86-489e-9696-96a35cc34240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{3d015c3a-735b-443d-9fce-02db39164ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external_libs\utf8">
+      <UniqueIdentifier>{b0ddc1e9-d898-4547-991b-b264739d2787}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="glm\glm\CMakeLists.txt">
+      <Filter>glm\glm</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lua\libluajit.a">
+      <Filter>lua</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

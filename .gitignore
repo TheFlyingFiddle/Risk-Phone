@@ -17,6 +17,18 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+#c++
+*.o
+*.so
+/ARM
+/x86
+/luajit/ARM
+/luajit/x86
+/Risk/Risk.NativeActivity/ARM
+/Risk/Risk.NativeActivity/x86
+/Risk/Risk.Packaging/ARM
+/Risk/Risk.Packaging/x86
+
 # =========================
 # Operating System Files
 # =========================
