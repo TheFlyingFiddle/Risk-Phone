@@ -28,6 +28,8 @@ $RECYCLE.BIN/
 /Risk/Risk.NativeActivity/x86
 /Risk/Risk.Packaging/ARM
 /Risk/Risk.Packaging/x86
+/ipch
+*.ipch
 
 # =========================
 # Operating System Files
